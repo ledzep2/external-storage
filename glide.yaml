@@ -19,6 +19,7 @@ import:
   - config
 - package: github.com/onsi/gomega
 - package: github.com/spf13/viper
+- package: k8s.io/apimachinery
 - package: k8s.io/client-go
   version: ^2.0.0
   subpackages:
@@ -53,7 +54,7 @@ import:
   - tools/clientcmd/api
   - tools/record
 - package: k8s.io/kubernetes
-  version: ~1.5.0
+  version: ~1.6.0
   subpackages:
   - pkg/cloudprovider
   - pkg/util/goroutinemap
